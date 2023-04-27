@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import SearchBar from './components/Searchbar';
 import Main from './components/Main';
+import SubReddits from './components/SubReddits';
 
 
 class App extends React.Component {
@@ -14,11 +15,11 @@ class App extends React.Component {
       </header>
   <div className="container">
       <div className='scontainer'>
-            <SearchBar  />
-            
+            <SearchBar   />
           </div>
+  
   <div className='lcontainer'>
-
+        <SubReddits />
          </div>
         
 

@@ -10,7 +10,9 @@ class SearchBar extends React.Component {
                 {borderColor: 'grey'}
                 
                     }/>
-                <button className="Searchbutton">Search</button>
+                <button className="Searchbutton"
+                onClick={this.props.Search}
+                >Search</button>
             </div>
         )
     }

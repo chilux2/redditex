@@ -42,6 +42,8 @@ span {
   justify-content: center;
   border-bottom: 1px solid gold;
   border-right: 1px solid gold;
+  color: white;
+  font-size: 20px;
 }
 
 .SearchBar {
